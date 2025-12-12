@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import { Link, useNavigate } from "react-router-dom"; // ✅ Import Link
 import { AppContext } from "../context/AppContext";
-
+///enfnvknfv
 const Navbar = () => {
   const { openSignIn } = useClerk();
   const { user } = useUser();
